@@ -5,7 +5,7 @@ import { resolve } from "path";
 
 const isProdEnv = process.env.NODE_ENV === 'production';
 const PUBLIC_PATH = isProdEnv ? "./" : process.env.PUBLIC_PATH;
-const OUT_DIR = isProdEnv ? './build' : 'build';
+const OUT_DIR = isProdEnv ? './docs' : 'build';
 const PLUGINS  = isProdEnv ? [react()] : [react()];
 
 // https://vitejs.dev/config/
