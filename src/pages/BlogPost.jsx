@@ -61,15 +61,14 @@ const TableOfContents = ({ headings }) => {
               activeId === heading.id ? "text-green-700 font-medium" : "text-gray-600"
             } hover:text-green-700 transition-colors`}
           >
-            <a 
-              href={`#${heading.id}`}
+            <div 
               className="block py-1 border-l-2 pl-2 hover:border-green-500 transition-colors"
               style={{
                 borderColor: activeId === heading.id ? "#15803d" : "transparent"
               }}
             >
               {heading.text}
-            </a>
+            </div>
           </li>
         ))}
       </ul>

@@ -177,7 +177,7 @@ const Header = () => {
                     >
                       <span className="text-green-600 group-hover:scale-110 transition-transform">{item.icon}</span>
                       <span>{item.title}</span>
-                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-700 group-hover:w-full transition-all duration-300"></span>
+                      <span className="absolute top-6 right-10 bottom-0 left-0 w-0 h-0.5 bg-green-700 group-hover:w-full transition-all duration-300"></span>
                     </Link>
                   ))}
                 </div>

@@ -111,7 +111,7 @@ const Index = () => {
                 <BookIcon className="mr-2 h-6 w-6 md:h-8 md:w-8 text-white" />
                 QD's Blog
               </h1>
-              <p className="text-sm md:text-lg max-w-md text-green-100">分享阅读、电影和生活的点滴感悟</p>
+              <p className="text-sm md:text-lg max-w-md text-green-100">这里是AI生成的网站，乱七八糟的文档是我写的</p>
             </div>
           </div>
         </div>
@@ -124,7 +124,7 @@ const Index = () => {
               <div className="bg-white rounded-lg p-4 shadow-md">
                 <h2 className="text-lg font-bold text-green-700 mb-3 flex items-center">
                   <span className="bg-green-700 w-2 h-6 mr-2 rounded-sm"></span>
-                  关于博主
+                  关于我
                 </h2>
                 <div className="flex items-center">
                   <img
@@ -181,16 +181,16 @@ const Index = () => {
               <div className="bg-white rounded-lg p-6 shadow-md">
                 <h2 className="text-lg font-bold text-green-700 mb-4 flex items-center">
                   <span className="bg-green-700 w-2 h-6 mr-2 rounded-sm"></span>
-                  关于博主
+                  关于我
                 </h2>
                 <div className="text-center">
                   <img
-                    src="https://nocode.meituan.com/photo/search?keyword=avatar,person,reading&width=120&height=120"
+                    src="https://s21.ax1x.com/2025/04/11/pERE99H.png"
                     alt="Avatar"
                     className="w-24 h-24 rounded-full mx-auto object-cover mb-4 border-2 border-green-100 p-1"
                   />
-                  <h3 className="text-gray-800 font-medium mb-2">豆瓣读者</h3>
-                  <p className="text-sm text-gray-600 mb-4">热爱阅读，热爱生活</p>
+                  <h3 className="text-gray-800 font-medium mb-2">乔丁</h3>
+                  <p className="text-sm text-gray-600 mb-4">试问岭南应不好, 此心安处是吾乡</p>
                   <div className="flex justify-center space-x-4 text-sm text-gray-600">
                     <span>文章 {posts.length}</span>
                     <span>标签 {tags.length - 1}</span>
