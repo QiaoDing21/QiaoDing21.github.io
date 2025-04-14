@@ -26,8 +26,9 @@ export function useSearch() {
     
     const term = searchTerm.toLowerCase();
     const results = posts?.filter(post => {
-      const { title, excerpt, tags } = post.frontmatter;
+      const { title, excerpt, tags, date } = post.frontmatter;
       return (
+        date.includes(term) ||
         title.toLowerCase().includes(term) || 
         (excerpt && excerpt.toLowerCase().includes(term)) ||
         (tags && tags.some(tag => tag.toLowerCase().includes(term)))
