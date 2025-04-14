@@ -406,7 +406,7 @@ const BlogPost = () => {
               )}
 
               {/* 相关文章 */}
-              <div className="bg-white rounded-lg p-6 shadow-md">
+              {/* <div className="bg-white rounded-lg p-6 shadow-md">
                 <h2 className="text-lg font-bold text-green-700 mb-4 flex items-center">
                   <span className="bg-green-700 w-2 h-6 mr-2 rounded-sm"></span>
                   相关文章
@@ -438,7 +438,7 @@ const BlogPost = () => {
                     </Link>
                   ))}
                 </div>
-              </div>
+              </div> */}
             </aside>
           )}
         </div>

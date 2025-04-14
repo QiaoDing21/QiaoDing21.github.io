@@ -1,7 +1,7 @@
 {
     "posts": [
         {
-            "slug": "tech/web/http",
+            "slug": "tech/http",
             "frontmatter": {
                 "title": "HTTP之输入URL发生了",
                 "date": "2018-04-27",

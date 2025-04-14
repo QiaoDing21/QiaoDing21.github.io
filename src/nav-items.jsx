@@ -19,7 +19,7 @@ export const navItems = [
   },
   {
     title: "博文",
-    to: "/post/:slug",
+    to: "/post/*",
     icon: <BookOpenIcon className="h-4 w-4" />,
     page: <BlogPost />,
   },
