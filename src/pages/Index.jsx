@@ -181,7 +181,7 @@ const Index = () => {
               <div className="bg-white rounded-lg p-6 shadow-md">
                 <h2 className="text-lg font-bold text-green-700 mb-4 flex items-center">
                   <span className="bg-green-700 w-2 h-6 mr-2 rounded-sm"></span>
-                  关于我
+                  我
                 </h2>
                 <div className="text-center">
                   <img
@@ -190,7 +190,7 @@ const Index = () => {
                     className="w-24 h-24 rounded-full mx-auto object-cover mb-4 border-2 border-green-100 p-1"
                   />
                   <h3 className="text-gray-800 font-medium mb-2">乔丁</h3>
-                  <p className="text-sm text-gray-600 mb-4">试问岭南应不好, 此心安处是吾乡</p>
+                  <p className="text-sm text-gray-600 mb-4">阳光开朗NPC</p>
                   <div className="flex justify-center space-x-4 text-sm text-gray-600">
                     <span>文章 {posts.length}</span>
                     <span>标签 {tags.length - 1}</span>
