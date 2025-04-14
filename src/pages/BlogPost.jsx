@@ -297,14 +297,14 @@ const BlogPost = () => {
                 <div className="text-xs md:text-sm text-gray-600">
                   感谢阅读！
                 </div>
-                <div className="flex space-x-2 md:space-x-4">
+                {/* <div className="flex space-x-2 md:space-x-4">
                   <button className="p-1.5 md:p-2 rounded-full bg-gray-100 text-green-700 hover:bg-green-700 hover:text-white transition-colors">
                     <ShareIcon className="h-4 w-4 md:h-5 md:w-5" />
                   </button>
                   <button className="p-1.5 md:p-2 rounded-full bg-gray-100 text-green-700 hover:bg-green-700 hover:text-white transition-colors">
                     <BookmarkIcon className="h-4 w-4 md:h-5 md:w-5" />
                   </button>
-                </div>
+                </div> */}
               </div>
               
               {/* 上一篇/下一篇导航 */}
@@ -346,7 +346,7 @@ const BlogPost = () => {
           {isMobile ? (
             <div className="space-y-4">
               {/* 相关文章 */}
-              <div className="bg-white rounded-lg p-4 shadow-md">
+              {/* <div className="bg-white rounded-lg p-4 shadow-md">
                 <h2 className="text-lg font-bold text-green-700 mb-3 flex items-center">
                   <span className="bg-green-700 w-2 h-6 mr-2 rounded-sm"></span>
                   相关文章
@@ -378,7 +378,7 @@ const BlogPost = () => {
                     </Link>
                   ))}
                 </div>
-              </div>
+              </div> */}
               
               {/* 移动端目录 - 可折叠 */}
               {showToc && (

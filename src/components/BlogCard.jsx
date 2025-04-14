@@ -33,10 +33,10 @@ const BlogCard = ({ post, isMobile }) => {
                     locale: zhCN,
                   })}
                 </span>
-                <span className="flex items-center">
+                {/* <span className="flex items-center">
                   <ClockIcon className="h-3 w-3 mr-1 text-green-700" />
                   {frontmatter.readTime || "5分钟"}
-                </span>
+                </span> */}
               </div>
               <span className="text-xs text-green-700 flex items-center">
                 阅读全文 <ArrowRightIcon className="h-3 w-3 ml-1" />
@@ -74,10 +74,10 @@ const BlogCard = ({ post, isMobile }) => {
                   locale: zhCN,
                 })}
               </span>
-              <span className="flex items-center">
+              {/* <span className="flex items-center">
                 <ClockIcon className="h-3 w-3 mr-1 text-green-700" />
                 {frontmatter.readTime || "5分钟"}
-              </span>
+              </span> */}
               <div className="flex-1" />
               <div className="flex flex-wrap gap-2">
                 {frontmatter.tags?.slice(0, 2).map((tag) => (

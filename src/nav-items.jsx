@@ -18,9 +18,9 @@ export const navItems = [
     page: <About />,
   },
   {
-    title: "博文",
+    title: "",
     to: "/post/*",
-    icon: <BookOpenIcon className="h-4 w-4" />,
+    icon: <></>,
     page: <BlogPost />,
   },
   {
