@@ -1,6 +1,16 @@
 {
     "posts": [
         {
+            "slug": "travel/fuxianhu",
+            "frontmatter": {
+                "title": "2025 五一抚仙湖",
+                "date": "2025-04-15",
+                "tags": ["旅行"],
+                "cover": "https://s21.ax1x.com/2025/04/14/pEWcmNR.jpg",
+                "excerpt": "gogogo 出发咯"
+            }
+        },
+        {
             "slug": "tech/csp",
             "frontmatter": {
                 "title": "CSP 内容安全策略详解 - 前端安全的守护者",
