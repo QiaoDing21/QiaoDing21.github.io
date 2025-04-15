@@ -1,6 +1,16 @@
 {
     "posts": [
         {
+            "slug": "tech/csp",
+            "frontmatter": {
+                "title": "CSP 内容安全策略详解 - 前端安全的守护者",
+                "date": "2025-04-15",
+                "tags": ["HTTP"],
+                "cover": "https://s21.ax1x.com/2025/04/14/pEWceE9.jpg",
+                "excerpt": "CSP 就像是网站的一个保安大哥，它帮我们管理哪些资源可以加载，哪些不能加载。"
+            }
+        },
+        {
             "slug": "film/zouzoutingting",
             "frontmatter": {
                 "title": "《走走停停》：在生活的褶皱里寻找生命的光亮",
