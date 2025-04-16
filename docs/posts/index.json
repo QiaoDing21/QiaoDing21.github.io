@@ -1,13 +1,13 @@
 {
     "posts": [
         {
-            "slug": "travel/fuxianhu",
+            "slug": "tech/web3",
             "frontmatter": {
-                "title": "2025 五一抚仙湖",
-                "date": "2025-04-15",
-                "tags": ["旅行"],
+                "title": "国内搞 Web3.0 的人是傻子吗",
+                "date": "2025-04-16",
+                "tags": ["Web"],
                 "cover": "https://s21.ax1x.com/2025/04/14/pEWcmNR.jpg",
-                "excerpt": "gogogo 出发咯"
+                "excerpt": "\"Web3.0 从业者都是傻子\" ——这样的论调在国内互联网圈并不少见。然而，事情真的这么简单吗？"
             }
         },
         {
@@ -35,7 +35,7 @@
             "frontmatter": {
                 "title": "TypeScript 进阶之路",
                 "date": "2025-02-05",
-                "tags": ["TypeScript", "前端开发"],
+                "tags": ["TypeScript", "前端"],
                 "cover": "https://s21.ax1x.com/2025/04/14/pEWBhvQ.jpg",
                 "excerpt": "TypeScript 是 JavaScript 的超集，它添加了可选的静态类型和基于类的面向对象编程。"
             }
@@ -45,7 +45,7 @@
             "frontmatter": {
                 "title": "Web 性能优化实践",
                 "date": "2025-02-05",
-                "tags": ["前端开发", "性能优化"],
+                "tags": ["前端", "性能优化"],
                 "cover": "https://s21.ax1x.com/2025/04/14/pEWBb5V.png",
                 "excerpt": "性能优化是前端开发中的重要话题，本文将分享一些实用的优化技巧。"
             }
@@ -55,7 +55,7 @@
             "frontmatter": {
                 "title": "React Hooks 完全指南",
                 "date": "2025-02-05",
-                "tags": ["React", "前端开发", "Hooks"],
+                "tags": ["React", "前端", "Hooks"],
                 "cover": "https://s21.ax1x.com/2025/04/14/pEWBO8U.jpg",
                 "excerpt": "深入探讨 React Hooks 的使用方法和最佳实践，帮助你编写更简洁、可复用的代码。"
             }
@@ -75,7 +75,7 @@
             "frontmatter": {
                 "title": "Web 无障碍设计指南",
                 "date": "2025-02-25",
-                "tags": ["无障碍", "前端开发", "用户体验"],
+                "tags": ["前端"],
                 "cover": "https://s21.ax1x.com/2025/04/14/pEWD1G8.jpg",
                 "excerpt": "学习如何设计和开发无障碍的 Web 应用，确保所有人都能平等地访问和使用网站。",
                 "readTime": "15分钟"
