@@ -5,13 +5,14 @@ import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 import rehypeHighlight from "rehype-highlight";
 import rehypeSlug from "rehype-slug";
-import "github-markdown-css/github-markdown-light.css";
-import "highlight.js/styles/github.css";
 import { format } from "date-fns";
 import { zhCN } from "date-fns/locale";
 import Header from "../components/Header";
 import { CalendarIcon, ClockIcon, TagIcon, ShareIcon, BookmarkIcon, ArrowLeftIcon, BookIcon, ChevronLeftIcon, ChevronRightIcon, ListIcon } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
+
+import "github-markdown-css/github-markdown-light.css";
+import "highlight.js/styles/github.css";
 
 const TableOfContents = ({ headings }) => {
   const [activeId, setActiveId] = useState("");
