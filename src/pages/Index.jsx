@@ -133,8 +133,8 @@ const Index = () => {
                     className="w-16 h-16 rounded-full object-cover border-2 border-green-100 p-1"
                   />
                   <div className="ml-4">
-                    <h3 className="text-gray-800 font-medium">豆瓣读者</h3>
-                    <p className="text-sm text-gray-600 mb-2">热爱阅读，热爱生活</p>
+                    <h3 className="text-gray-800 font-medium">乔丁</h3>
+                    <p className="text-sm text-gray-600 mb-2"></p>
                     <div className="flex space-x-4 text-xs text-gray-600">
                       <span>文章 {posts.length}</span>
                       <span>标签 {tags.length - 1}</span>
