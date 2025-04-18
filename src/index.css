@@ -141,10 +141,6 @@ body {
   color: #17803d;
 }
 
-.markdown-body table tr:nth-child(2n) {
-  background-color: #10406f;
-}
-
 .markdown-body img {
   max-width: 100%;
   box-sizing: content-box;
