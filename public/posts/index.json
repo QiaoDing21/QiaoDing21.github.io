@@ -1,6 +1,16 @@
 {
     "posts": [
         {
+            "slug": "travel/fuxianhu",
+            "frontmatter": {
+                "title": "五一云南调研",
+                "date": "2025-04-16",
+                "tags": ["旅行"],
+                "cover": "https://s21.ax1x.com/2025/04/14/pEWBRC8.jpg",
+                "excerpt": "五一去哪"
+            }
+        },
+        {
             "slug": "tech/web3",
             "frontmatter": {
                 "title": "国内搞 Web3.0 的人是傻子吗",
