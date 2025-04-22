@@ -1,6 +1,16 @@
 {
     "posts": [
         {
+            "slug": "life/travel",
+            "frontmatter": {
+                "title": "沈阳：历史与现代交织的魅力之城",
+                "date": "2025-03-25",
+                "tags": ["旅行"],
+                "cover": "https://s21.ax1x.com/2025/04/14/pEWcEB4.jpg",
+                "excerpt": "沈阳，简称“沈”，古称盛京、奉天，是辽宁省省会、副省级市、特大城市，也是沈阳都市圈核心城市。"
+            }
+        },
+        {
             "slug": "tech/compress",
             "frontmatter": {
                 "title": "前端开发中的文件压缩格式详解与实践应用",
