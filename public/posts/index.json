@@ -1,10 +1,20 @@
 {
     "posts": [
         {
+            "slug": "tech/typescript-type",
+            "frontmatter": {
+                "title": "TypeScript 泛型深度解析",
+                "date": "2025-04-23",
+                "tags": ["Web"],
+                "cover": "https://s21.ax1x.com/2025/04/14/pEWD1G8.jpg",
+                "excerpt": "泛型作为 TypeScript 中最强大的特性之一，不仅能够提供类型安全性，还能实现代码复用，是构建灵活且可维护系统的关键要素"
+            }
+        },
+        {
             "slug": "travel/shenyang",
             "frontmatter": {
                 "title": "沈阳：历史与现代交织的魅力之城",
-                "date": "2025-03-25",
+                "date": "2025-04-22",
                 "tags": ["旅行"],
                 "cover": "https://s21.ax1x.com/2025/04/14/pEWcEB4.jpg",
                 "excerpt": "沈阳，简称“沈”，古称盛京、奉天，是辽宁省省会、副省级市、特大城市，也是沈阳都市圈核心城市。"
